@@ -1,0 +1,8 @@
+@import "variables";
+@import "mixins";
+@import "global";
+
+//components
+@import "./sub-components/Header";
+@import "./sub-components/Body";
+@import "./sub-components/Footer";
