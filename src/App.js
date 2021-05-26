@@ -1,15 +1,20 @@
 import React from "react";
-import Body from "./pages/Home/Body";
-import Footer from "./pages/Home/Footer";
-import Header from "./pages/Home/Header";
-
-import "./scss/_App.scss";
+import Banner from "./Home/Banner";
+import About from "./Home/About";
+import Projects from "./Home/Projects";
+import Footer from "./Home/Footer";
+import Header from "./Home/Header";
+import "./scss/App.scss";
+import Skills from "./Home/Skills";
 
 function App() {
   return (
     <div className="app">
       <Header />
-      <Body />
+      <Banner />
+      <About />
+      <Projects />
+      <Skills />
       <Footer />
     </div>
   );
