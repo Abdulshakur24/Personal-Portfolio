@@ -113,23 +113,30 @@
     }
 
     .modal-container {
-      background-color: $white;
-      color: $black;
       border-radius: 8px;
       padding: 1rem;
       width: 70%;
-      height: 60%;
-      max-width: 400px;
+      height: 50%;
+      max-width: 300px;
+      backdrop-filter: blur(10px);
+      background-color: rgba(255, 255, 255, 0);
+      box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 60%);
 
       ul {
         list-style: none;
+        height: 100%;
+        display: grid;
+        grid-template: repeat(5, 1fr) / 1fr;
+        justify-items: center;
+        align-items: center;
         li {
           &:not(:last-child) {
             margin-bottom: 1rem;
           }
           a {
             text-decoration: none;
-            color: $black;
+            color: $white;
+            font-size: 18px;
           }
         }
       }
