@@ -118,9 +118,7 @@
       width: 70%;
       height: 50%;
       max-width: 300px;
-      backdrop-filter: blur(10px);
-      background-color: rgba(255, 255, 255, 0);
-      box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 60%);
+      background-color: rgba(255, 255, 255, 1);
 
       ul {
         list-style: none;
@@ -135,7 +133,7 @@
           }
           a {
             text-decoration: none;
-            color: $white;
+            color: $black;
             font-size: 18px;
           }
         }
